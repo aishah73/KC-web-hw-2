@@ -1,0 +1,449 @@
+html {scroll-behavior: smooth;
+
+}
+
+ body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: black;
+    margin: 60;
+    padding: 60;
+    
+    background-image: url(blue.jpg);
+     background-repeat:no-repeat ;
+     background-size:cover ;
+    
+
+
+ }
+
+ ul{
+    list-style: none;
+ }
+
+ .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+ }
+ 
+ small
+
+ @media (min-width: 768px) {
+    .container {width: 750px;}
+ }
+
+ @media (min-width: 992px) {
+    .container {width: 970px;}
+ }
+ @media (min-width: 1200px) {
+    .container {width: 1170px;}
+ }
+ 
+ 
+
+ header{ background-color: black;
+
+ }
+
+ header .container { display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid white;
+ }
+ header .container::after {
+    content: ;
+    position: absolute;
+    height: 10px;
+    background-color: white;
+    bottom: 3px;
+    width: calc(100%);
+    left: 15px;
+ }
+ ما احتاجه
+
+
+ header img {
+    height: 40px
+ }
+ #logog{
+    width: 100px;
+    height: 120px;}
+
+
+ header .nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ header nav ul {
+    display: flex;
+    opacity: 1;
+    
+ }
+
+header nav ul li a {
+    padding: 40px 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+header nav ul li a:active,
+header nav ul li a:hover {
+    color:rgb(245, 17, 17);
+    border-bottom: 1px solid color(red);
+}
+header nav .form {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin: left 30px;
+    border-left: 1px solid rgb(228, 13, 13)
+} 
+header nav .form i {
+    color: rgb(206, 22, 22);
+    position: absolute;
+    font-size: 20px;
+    transform: translateY(-50%);
+    right: 0;
+
+}
+.plane{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+
+.test{background-color: black;
+    background-image: url(action1.jpg);
+    background-repeat:no-repeat ;
+    width: 200px;
+    height: 300px;
+    display: inline-flex;
+    margin: auto;
+opacity: 1;
+transition: all 0,5s;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding-left: 1px;
+    padding-right: 15px;
+    margin-right: auto;
+    box-shadow: 3px 3px 2px black;
+    font-size: 20px;
+    top: 170px;
+    border: 100px;
+    border-color:white ;
+
+    
+}
+
+
+
+
+.test2{background-color: black;
+    background-image: url(action2.jpg);
+    background-repeat:no-repeat ;
+    width: 200px;
+    height: 300px;
+    display: inline-flex;
+    margin: auto;
+opacity: 1;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding-left: 1px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto ;
+    box-shadow: 3px 3px 2px black;
+    font-size: 20px;
+    border: 100px;
+    border-color:white ;
+
+
+    
+}
+.test3{background-color: black;
+
+    background-image: url(action\ 3.jpg);
+    background-repeat:no-repeat ;
+    width: 200px;
+    height: 300px;
+    justify-content: space-between;
+    display: inline-flex;
+    margin: auto;
+opacity: 1;
+transition: all 0,5s;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding-left: 1px;
+    padding-right: 20px;
+    margin-left: auto;
+    border: 100px;
+    border-color:white ;
+    
+    
+}
+.test h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-top: 200px;
+}
+
+.test2 h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-top: 220px;
+}
+
+.test3 h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-top: 220px;
+}
+
+
+
+
+
+
+
+.test4{background-color: black;
+
+    background-image: url(رعب1.jpg);
+    background-repeat:no-repeat ;
+    width: 200px;
+    height: 300px;
+    justify-content: space-between;
+    display: inline-flex;
+    margin: auto;
+opacity: 1;
+transition: all 0,5s;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding-left: 1px;
+    padding-right: 20px;
+    margin-left: auto;
+    box-shadow: 3px 3px 2px black;
+    font-size: 20px;
+    border: 100px;
+    border-color:white ;
+    
+    
+}
+
+
+
+.test4 h2{font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-top: 220px;
+
+}
+.test6 h2{font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-top: 220px;
+
+}
+
+.test6{background-color: black;
+
+    background-image: url(rab.jpg);
+    background-repeat:no-repeat ;
+    width: 200px;
+    height: 300px;
+    justify-content: space-between;
+    display: inline-flex;
+    margin: auto;
+opacity: 1;
+transition: all 0,5s;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding-left: 1px;
+    padding-right: 20px;
+    margin-left: auto;
+    box-shadow: 3px 3px 2px black;
+    font-size: 20px;
+    border: 100px;
+    border-color:white ;
+    
+    
+}
+
+.test7{background-color: black;
+
+    background-image: url(d1.jpg);
+    background-repeat:no-repeat ;
+    width: 200px;
+    height: 300px;
+    justify-content: space-between;
+    display: inline-flex;
+    margin: auto;
+opacity: 1;
+transition: all 0,5s;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding-left: 1px;
+    padding-right: 20px;
+    margin-left: auto;
+    box-shadow: 3px 3px 2px black;
+    font-size: 20px;
+    border: 100px;
+    border-color:white ;
+    
+    
+}
+.test8{background-color: black;
+
+    background-image: url(d2.jpg);
+    background-repeat:no-repeat ;
+    width: 200px;
+    height: 300px;
+    justify-content: space-between;
+    display: inline-flex;
+    margin: auto;
+opacity: 1;
+transition: all 0,5s;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding-left: 1px;
+    padding-right: 20px;
+    margin-left: auto;
+    box-shadow: 3px 3px 2px black;
+    font-size: 20px;
+    border: 100px;
+    border-color:white ;
+    
+    
+}
+.test9{background-color: black;
+
+    background-image: url(d3.jpeg);
+    background-repeat:no-repeat ;
+    width: 200px;
+    height: 300px;
+    justify-content: space-between;
+    display: inline-flex;
+    margin: auto;
+opacity: 1;
+transition: all 0,5s;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding-left: 1px;
+    padding-right: 20px;
+    margin-left: auto;
+    box-shadow: 3px 3px 2px black;
+    font-size: 20px;
+    border: 100px;
+    border-color:white ;
+    
+    
+}
+
+
+
+
+
+ما احتاجه
+.an{ background-color: gray;
+    width: 900px;
+    height: 250px;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+opacity: 1;
+transition: all 0,5s;
+box-shadow: 1px 3px 6px black;
+margin: 50px;
+padding: center;
+padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 2px black;
+
+
+}
+
+
+
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color:black;
+    margin: 1px;
+   opacity: 1;
+   transition: all 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+كتابة
+.A1{
+    box-shadow: 3px 3px 2px black;
+    
+}
+#ah1{
+    display: block;
+    font-size: 50px;
+    font-weight:bold;
+    
+    position: absolute;
+    right: 600px;
+    top: 130px;
+    color: white;
+    box-shadow: 3px 3px 2px black;
+    
+    
+}
+
+#ah2{
+    display: block;
+    font-size: 50px;
+    font-weight:bold;
+    
+    position: absolute;
+    right: 600px;
+    top: 500px;
+    color: white;
+    box-shadow: 3px 3px 2px black;
+    
+    
+}
+
+#ah3{
+    display: block;
+    font-size: 50px;
+    font-weight:bold;
+    
+    position: absolute;
+    right: 570px;
+    top: 950px;
+    color: white;
+    box-shadow: 3px 3px 2px black;
+    
+}
